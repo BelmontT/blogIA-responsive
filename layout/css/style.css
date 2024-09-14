@@ -1,0 +1,125 @@
+body{
+    background-color:rgb(19, 19, 19);
+}
+
+.rectangleHeader{
+    width:auto;
+    text-align:center;
+    border-radius:10px;
+    background-color:rgb(14, 14, 14);
+}
+.contentHeader{
+    font-size:16px;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.imageHeader{
+    top:10px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    cursor:pointer;
+    position:relative;
+    border-radius:10px;
+    box-shadow:3px 3px;
+}
+.imageHeader:hover{
+    opacity:0.7;
+}
+
+.rectangleContent{
+    width:90%;
+    margin-top:2%;
+    margin-left:5%;
+    border-radius:10px;
+    position:relative;
+    background-color:rgb(14, 14, 14);
+}
+
+.content{
+    font-size:14px;
+    color:white;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.gallery{
+    width:100%;
+    max-width:350px;
+    height:auto;
+    margin:10px;
+    cursor:pointer;
+    display: inline-block;
+    border-radius:10px;
+    justify-content: center;
+    box-shadow:2px 2px;
+    flex-wrap: wrap;
+    background-color:rgb(14, 14, 14);
+}
+.gallery:hover{
+    opacity:0.7;
+    box-shadow:4px 4px;
+}
+
+.formContact{
+    color:white;
+    padding:5px;
+}
+
+textarea{
+    font-size:10px;
+}
+
+.footer{
+    top:2%;
+    color:white;
+    font-size:12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+    position:relative;
+    text-decoration:none;
+    border-radius:10px;
+    padding:5px;
+    background-color:rgb(14, 14, 14);
+}
+
+@media (max-width: 1080px) {
+    .imageHeader{
+        top:6px;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        width:90%;
+        position:relative;
+        border-radius:10px;
+        box-shadow:3px 3px;
+    }
+    .rectangleContent{
+        width:90%;
+        margin-top:5%;
+        margin-left:5%;
+        border-radius:10px;
+        position:relative;
+        background-color:rgb(14, 14, 14);
+    }
+
+    .gallery{
+        width:100%;
+        max-width:295px;
+        height:auto;
+        margin:5px;
+        display: inline-block;
+        border-radius:10px;
+        justify-content: center;
+        box-shadow:2px 2px;
+        flex-wrap: wrap;
+        background-color:rgb(14, 14, 14);
+    }
+
+    textarea{
+        font-size:10px;
+        max-width:100%;
+    }
+}
